@@ -20,7 +20,7 @@
 ├── code_base/
 │   └── Thèse - Recommender system - Algorithms on DS1 (for TW).ipynb
 ├── data/
-│   ├── Dataset1p1.csv                         ← DS1 interactions (Amazon Fashion)
+│   ├── Dataset1p1.csv                         ← DS1 interactions (Amazon Clothing, Shoes & Jewelry)
 │   ├── Dataset1p2.csv                         ← DS1 métadonnées items (avec Pred_EI)
 │   ├── Dataset2p1.csv                         ← DS2 interactions (Amazon Clothing)
 │   ├── Dataset2p2.csv                         ← DS2 métadonnées items (co2e_kg, sustainability_score)
@@ -52,7 +52,7 @@
 
 Les données sont incluses dans ce repository.
 
-- **DS1** — Amazon Fashion (dataset principal, feedback explicite 1–5)  
+- **DS1** — Amazon Clothing, Shoes & Jewelry (dataset principal, feedback explicite 1–5)  
   Source : [nijianmo.github.io/amazon](https://nijianmo.github.io/amazon/index.html)  
   Traitement : filtrage 5-core, encodage ordinal, prédiction d'impact environnemental via `Pred_EI` (1–5, 1 = plus durable)
 
