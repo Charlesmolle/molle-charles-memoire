@@ -17,6 +17,8 @@ dans les stratégies de post-processing des systèmes de recommandation ?*
 ---
 
 ## Structure du repository
+
+```
 ├── code/
 │   ├── Thèse - Recommender system - Algorithms on DS1 (for TW).ipynb
 │   └── prepare_DS2.py
@@ -32,7 +34,8 @@ dans les stratégies de post-processing des systèmes de recommandation ?*
 │   ├── results_mf_DS1.csv
 │   └── results_mf_DS2.csv
 └── data/
-└── README.md
+    └── README.md
+```
 
 ---
 
