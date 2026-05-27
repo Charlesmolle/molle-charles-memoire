@@ -1,0 +1,29 @@
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[co]
+*.pyo
+.env
+.venv/
+venv/
+
+# ── Jupyter ─────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── macOS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── code_base : exclure backups, garder uniquement le notebook principal ────────
+code_base/*.bak
+code_base/*_BACKUP_*.ipynb
+
+# ── data : exclure Dataset3 et l'embed non demandé ──────────────────────────────
+data/Dataset3p1.csv
+data/Dataset3p2.csv
+data/embed_all-MiniLM-L6-v2_1869.npy
+
+# ── results : exclure archive_old, plots et fichiers hors-CSV ───────────────────
+results/archive_old/
+results/plots/
+results/*.png
+results/generate_baseline_table.py
